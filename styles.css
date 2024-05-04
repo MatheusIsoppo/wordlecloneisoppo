@@ -132,12 +132,16 @@ body {
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: repeat(6, inherit);
     gap: .25em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
   }
 
   #btNewGame{
     font-size: 100%;
   }  
+  .nav{
+    height: 50px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -161,6 +165,10 @@ body {
     top: 8vh;
     left: 50vw;
     width: 70%;
+  }
+  .nav{
+    height: 50px;
+    width: 100%;
   }
 }
 
@@ -201,6 +209,30 @@ body {
 
   #boxFailedGamep1{
     font-size: 150%;
+  }
+  .nav{
+    height: 50px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 770px) {
+  .guess-grid {
+    display: grid;
+
+    flex-grow: 1;
+    grid-template-columns: repeat(5, 18%);
+    grid-template-rows: repeat(6, 15%);
+    gap: .25em;
+    margin-bottom: 0.5em;
+  }
+
+  #btNewGame{
+    font-size: 100%;
+  }  
+  .nav{
+    height: 50px;
+    width: 100%;
   }
 }
 
