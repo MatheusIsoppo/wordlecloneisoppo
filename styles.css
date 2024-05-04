@@ -125,15 +125,7 @@ body {
 }
 
 @media screen and (max-width: 470px) {
-  .guess-grid {
-    display: grid;
-    
-    flex-grow: 1;
-    grid-template-columns: repeat(5, 20%);
-    grid-template-rows: repeat(6, inherit);
-    gap: .25em;
-    margin-bottom: 0.5em;
-  }
+  
 
   #btNewGame{
     font-size: 100%;
@@ -216,17 +208,7 @@ body {
   }
 }
 
-@media screen and (max-height: 770px) {
- 
 
-  #btNewGame{
-    font-size: 100%;
-  }  
-  .nav{
-    height: 50px;
-    width: 120%;
-  }
-}
 
 
 .tile {
