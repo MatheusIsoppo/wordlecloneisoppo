@@ -15,7 +15,7 @@ body {
 }   
 .nav{
   display: flex;
-  position: absolute;
+  position: relative;
   flex-direction: row;
   margin: 0%;
   padding: 1%;
@@ -119,7 +119,7 @@ body {
   grid-template-rows: repeat(6, 3.0em);
   gap: .25em;
   margin-bottom: 1em;
-  margin-top: 2.5em;
+  margin-top: 0.5em;
   width: 100%;
   padding: 0.5em;
 }
@@ -217,22 +217,14 @@ body {
 }
 
 @media screen and (max-height: 770px) {
-  .guess-grid {
-    display: grid;
-
-    flex-grow: 1;
-    grid-template-columns: repeat(5, 18%);
-    grid-template-rows: repeat(6, 15%);
-    gap: .25em;
-    margin-bottom: 0.5em;
-  }
+ 
 
   #btNewGame{
     font-size: 100%;
   }  
   .nav{
     height: 50px;
-    width: 100%;
+    width: 120%;
   }
 }
 
