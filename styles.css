@@ -127,8 +127,7 @@ body {
 @media screen and (max-width: 470px) {
   .guess-grid {
     display: grid;
-    justify-content: center;
-    align-content: center;
+    
     flex-grow: 1;
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: repeat(6, inherit);
@@ -143,7 +142,7 @@ body {
 
 @media screen and (max-width: 500px) {
   .nav{
-    
+    height: 50px;
     width: 100%;
   }
 
